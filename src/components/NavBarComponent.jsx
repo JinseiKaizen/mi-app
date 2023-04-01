@@ -15,9 +15,9 @@ const NavBarComponent = (props) => {
         </button>
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <ListOptionNavBarComponent nameOption={nameOptions}/>
+          <CartWidget />
         </div>
       </div>
-      <CartWidget />
     </nav >)
 
 };

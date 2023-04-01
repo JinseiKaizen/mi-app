@@ -5,7 +5,7 @@ const OptionNavBarComponent = (props) => {
     return (
             <span className="nav-link">
                 {titleOption}
-                </span>
+            </span>
     );
 
 };
